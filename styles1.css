@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    color:#222;
+}
+
+/* HEADER */
+
+header{
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:15px 30px;
+    position:sticky;
+    top:0;
+}
+
+#header-img{
+    cursor:pointer;
+}
+
+#search form{
+    display:flex;
+    align-items:center;
+
+}
+#search{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+
+#search input{
+    width:400px;
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:6px;
+}
+
+#search button{
+    background:#f84464;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+
+select{
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #ddd;
+    cursor:pointer;
+}
+
+.material-symbols-outlined{
+    cursor:pointer;
+    font-size:32px;
+}
+
+/* SIGN IN / SIGN UP */
+
+
+
+#buttons{
+    display:flex;
+    gap:10px;
+    margin:0;
+}
+
+#buttons button{
+    background:#f84464;
+    color:white;
+    border:none;
+    padding:8px 16px;
+    border-radius:4px;
+    cursor:pointer;
+    font-size:14px;
+}
+
+
+/* NAVBAR */
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:15px;
+    background:white;
+}
+
+nav a{
+    color:#333;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#f84464;
+}
+
+/* BANNERS */
+
+#banner img,
+#streamBanner img{
+    width:95%;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+#banner{
+    margin:20px 0;
+}
+
+/* SECTION HEADINGS */
+
+h2{
+    margin:30px;
+    font-size:30px;
+
+}
+
+/* MOVIES */
+
+#movies img,
+#events img,
+#music img,
+#activities img,
+#premiere img{
+    border-radius:12px;
+    cursor:pointer;
+}
+
+#movies img:hover,
+#events img:hover,
+#music img:hover,
+#activities img:hover,
+#premiere img:hover{
+    box-shadow:0 10px 20px rgba(0,0,0,0.25);
+}
+
+table{
+    margin:auto;
+    border-spacing:30px 10px;
+}
+
+td{
+    text-align:center;
+    vertical-align:top;
+}
+
+/* PREMIERE SECTION */
+
+#premiere{
+    padding:30px;
+    margin-top:40px;
+}
+
+#premiere img:first-child{
+    width:100%;
+    margin-bottom:20px;
+}
+
+/* EVENTS */
+
+#events,
+#music,
+#activities{
+    margin-top:40px;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top:50px;
+}
+
+footer div{
+    padding:30px;
+    text-align:center;
+}
+
+footer button{
+    background:#f84464;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    margin:15px 0;
+    cursor:pointer;
+}
+
